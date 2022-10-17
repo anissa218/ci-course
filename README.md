@@ -1,6 +1,7 @@
 [![Run unit tests](https://github.com/anissa218/ci-course/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/anissa218/ci-course/actions/workflows/unit-tests.yml)
 [![Run on multiple os](https://github.com/anissa218/ci-course/actions/workflows/os-tests.yml/badge.svg)](https://github.com/anissa218/ci-course/actions/workflows/os-tests.yml)
 [![Run coverage tests](https://github.com/anissa218/ci-course/actions/workflows/coverage-tests2.yml/badge.svg)](https://github.com/anissa218/ci-course/actions/workflows/coverage-tests2.yml)
+[![BCH compliance](https://bettercodehub.com/edge/badge/anissa218/ci-course?branch=main)](https://bettercodehub.com/)
 # OxRSE Continuous Integration course
 
 This project contains a small Python project. We are going to use free cloud services to automate:
