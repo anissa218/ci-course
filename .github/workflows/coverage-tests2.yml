@@ -24,9 +24,9 @@ jobs:
     - name: Run coverage
       run: |
         coverage run -m unittest
- - name: Run codecov
-    if: success()
-    env:
-      CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-    run: |
-      codecov
+    - name: Run codecov
+      if: success()
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      run: |
+        codecov
